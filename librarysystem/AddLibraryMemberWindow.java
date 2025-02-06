@@ -136,7 +136,7 @@ public class AddLibraryMemberWindow extends JFrame implements LibWindow {
 		submitButton.setBackground(new Color(255, 255, 255));
 		submitButton.setFont(new Font("Tahoma", Font.BOLD, 16));
 		submitButton.setIcon(null);
-		submitButton.setForeground(new Color(102, 153, 0));
+		submitButton.setForeground(new Color(0, 0, 0));
 		submitButtonListener(submitButton);
 		submitButton.setBounds(248, 230, 91, 31);
 		mainPane.add(submitButton);
@@ -176,13 +176,12 @@ public class AddLibraryMemberWindow extends JFrame implements LibWindow {
 		JButton backButton = new JButton("<---");
 		backButton.setIcon(null);
 		backButton.setFont(new Font("Tahoma", Font.BOLD, 14));
-		backButton.setForeground(new Color(128, 64, 64));
+		backButton.setForeground(new Color(0, 0, 0));
 		backButton.setBounds(0, 0, 62, 25);
 		addBackButtonListener(backButton);
 		mainPane.add(backButton);
 
 		pictureLabel = new JLabel("");
-		pictureLabel.setIcon(new ImageIcon(AddLibraryMemberWindow.class.getResource("/librarysystem/book.jpg")));
 		pictureLabel.setBounds(0, 278, 666, 219);
 		mainPane.add(pictureLabel);
 
@@ -192,7 +191,7 @@ public class AddLibraryMemberWindow extends JFrame implements LibWindow {
 		mainPane.add(addressLabel);
 
 		JSeparator separator = new JSeparator();
-		separator.setForeground(new Color(192, 192, 192));
+		separator.setForeground(new Color(0, 0, 0));
 		separator.setBounds(10, 142, 516, 1);
 		mainPane.add(separator);
 	}

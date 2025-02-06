@@ -90,8 +90,7 @@ public class LookUpBookWindow extends JFrame implements LibWindow {
 		submitButton.setHorizontalAlignment(SwingConstants.LEFT);
 		submitButton.setBackground(new Color(255, 255, 255));
 		submitButton.setFont(new Font("Tahoma", Font.BOLD, 14));
-		submitButton.setIcon(new ImageIcon(LookUpBookWindow.class.getResource("/librarysystem/search1.gif")));
-		submitButton.setForeground(new Color(102, 153, 0));
+		submitButton.setForeground(new Color(0, 0, 0));
 		submitButtonListener(submitButton);
 		submitButton.setBounds(377, 101, 119, 45);
 
@@ -120,7 +119,6 @@ public class LookUpBookWindow extends JFrame implements LibWindow {
 		contentPane.add(backButton);
 
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(LookUpBookWindow.class.getResource("/librarysystem/libraryAgain.jpg")));
 		lblNewLabel.setBounds(-20, 45, 269, 415);
 		contentPane.add(lblNewLabel);
 
